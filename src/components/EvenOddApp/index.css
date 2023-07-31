@@ -1,0 +1,43 @@
+/* Write your CSS here */
+.app-container {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.app-card-container {
+  background-image: linear-gradient(to bottom, #ff6e7f, #bfe9ff);
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.count-heading {
+  font-family: 'Roboto';
+  font-size: 23px;
+  color: #0f172a;
+  margin-bottom: 30px;
+}
+.even-odd-description {
+  font-family: 'Roboto';
+  font-size: 20px;
+  color: #334155;
+}
+.increment-button {
+  font-family: 'Roboto';
+  font-size: 10px;
+  background-color: #ffffff;
+  color: #1e293b;
+  border: none;
+  border-radius: 8px;
+  height: 30px;
+  width: 120px;
+}
+.description {
+  font-family: 'Roboto';
+  font-size: 8px;
+  color: #334155;
+}
